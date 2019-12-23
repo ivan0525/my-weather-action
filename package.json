@@ -1,0 +1,13 @@
+{
+  "name": "my-weather-action",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soloPhone/my-weather-action.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "homepage": "https://solophone.github.io/github-actions-demo"
+}
