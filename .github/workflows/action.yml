@@ -1,5 +1,4 @@
-name: GitHub Actions Demo
-
+name: GitHub Actions Build and Deploy Demo
 on:
   push:
     branches:
@@ -12,8 +11,8 @@ jobs:
         uses: actions/checkout@master
 
       - name: Build and Deploy
-        uses: JamesIves/github-pages-deploy-action@releases/v3
-        with:
+        uses: JamesIves/github-pages-deploy-action@master
+        env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           BRANCH: gh-pages
           FOLDER: build
